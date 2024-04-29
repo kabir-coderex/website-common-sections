@@ -1,0 +1,152 @@
+/* Rest CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    padding-bottom: 120px;
+}
+.wpfnl-container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1380px;
+    padding: 0 15px;
+}
+.wpfnl-section-text{
+    color: #292D34;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.wpfnl-primary-btn{
+    border-radius: 16px;
+    border: 1px solid #5B26C6;
+    background: linear-gradient(93deg, #6E42D3 2.25%, #7220F5 50.15%, #E35ED0 100%);
+    box-shadow: 0px 10px 24px 0px rgba(239, 212, 255, 0.70);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; 
+    padding: 21px 30px;
+    cursor: pointer;
+}
+
+/* Hero Section Starts */
+.wpfnl-hero-section-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.wpfnl-hero-section-wrapper .wpfnl-hero-section-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.wpfnl-hero-section-wrapper .wpfnl-hero-section-container .wpfnl-hero-text-wrapper .wpfnl-hero-section-heading{
+    font-family: "Circular Std";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px; 
+    letter-spacing: -2px;
+    background: linear-gradient(113deg, #6E42D3 9.32%, #AC77FD 35.31%, #DF52FF 61.78%, #EE8134 84.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+
+.wpfnl-hero-section-wrapper .wpfnl-hero-section-container .wpfnl-hero-text-wrapper .wpfnl-section-text{
+    width: 80%;
+}
+
+/* Hero Section Ends */
+
+
+/* Responsive styles */
+@media only screen and (max-width: 1399px) {
+  .wpfnl-container {
+        max-width: 1170px;
+  }
+
+}
+
+@media only screen and (max-width: 1199px) {
+  .wpfnl-container{
+        max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+    .wpfnl-container {
+        max-width: 720px;
+    }
+    section{
+        padding-bottom: 50px;
+    }
+    .wpfnl-primary-btn{
+        font-size: 14px;
+        line-height: 14px;
+        padding: 16px 24px;
+    }
+    .wpfnl-hero-section-wrapper{
+        padding: 50px 0;
+    }
+    .wpfnl-hero-section-wrapper .wpfnl-hero-section-container{
+        grid-template-columns: 1fr;
+        gap: 10px
+    }
+    .wpfnl-hero-image-wrapper{
+        width: 80%;
+        margin: auto;
+    }
+    .wpfnl-container.wpfnl-hero-section-container{
+        text-align: center;
+    }
+    .wpfnl-hero-section-wrapper .wpfnl-hero-section-container .wpfnl-hero-text-wrapper .wpfnl-section-text{
+        margin: auto;
+        margin-bottom: 18px;
+    }
+    .wpfnl-hero-section-wrapper .wpfnl-hero-section-container .wpfnl-hero-text-wrapper .wpfnl-hero-section-heading{
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 18px;
+    }
+    
+    .wpfnl-section-text{
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .wpfnl-container {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .wpfnl-hero-image-wrapper{
+        width: 100%;
+    }
+}
