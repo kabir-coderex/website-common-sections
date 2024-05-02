@@ -23,4 +23,6 @@ In this repository there are the common sections of feature pages of both WPFunn
 <br><br>
 ![Card Image](./assets/CardWithRightImage.png)
 
-
+- [FAQ Section](https://kabir-coderex.github.io/website-common-sections/components/FAQSection/index.html) - [Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/components/FAQSection)
+<br><br>
+![Card Image](./assets/faq-section.png)
