@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card With Center Image</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- ToDo: Not necessary   -->
+    <style>
+        img{
+            width: 100%;
+            height: 100%;
+        }
+ body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1380px;
+    padding: 0 15px;
+ }
+
+ @media only screen and (max-width: 1399px) {
+  body {
+        max-width: 1170px;
+  }
+}
+
+  @media only screen and (max-width: 1199px) {
+        body{
+                max-width: 960px;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        body {
+            max-width: 720px;
+            margin-top: 30px;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        body {
+            max-width: 540px;
+        }
+    }
+
+    /* Not For Copy! */
+
+    </style>
+</head>
+<body>
+    <div class="gwpf-card-with-img-center">
+        <h3 class="gwpf-card-with-img-center-header">Unlimited Page Variation</h3>
+        <p class="gwpf-card-with-img-center-text">Create as many variations of your funnel pages as you want and identify the one that works.</p>
+        <figure>
+            <img loading="lazy" src="./page-variation-img.png" alt="Create as many variations of your funnel pages as you want and identify the one that works." class="gwpf-card-with-img-center-img">
+        </figure>
+    </div>
+</body>
+</html>

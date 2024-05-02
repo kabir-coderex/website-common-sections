@@ -1,0 +1,67 @@
+
+ /* Card With Center Image */
+ .gwpf-card-with-img-center{
+    border-radius: 24px;
+    border: 1px solid #DECEE6;
+    padding: 40px;
+    padding-bottom: 0;
+    background: linear-gradient(180deg, #DD578F 0%, #EE8134 100%);
+}
+
+ .gwpf-card-with-img-center .gwpf-card-with-img-center-header {
+    color: #FFF;
+    font-family: "Circular Std";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 32px;
+}
+
+ .gwpf-card-with-img-center .gwpf-card-with-img-center-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 22px;
+    width: 80%;
+}
+
+/* Responsive styles */
+  
+  @media only screen and (max-width: 991px) {
+    /* ToDo: Body Style not necessary - its for view only */
+    .body{
+        margin-top: 30px;
+        grid-template-columns: 1fr;
+    }
+    /* ToDo: Body Style not necessary - its for view only */
+    
+       .gwpf-card-with-img-center .gwpf-card-with-img-center-text{
+          font-size: 14px;
+          line-height: 24px;
+          margin-bottom: 18px;
+      }
+      
+       .gwpf-card-with-img-center .gwpf-card-with-img-center-header{
+          font-size: 20px;
+          line-height: 1;
+      }
+      
+       .gwpf-card-with-img-center{
+          padding-bottom: 0;
+      }
+  }
+  
+  @media only screen and (max-width: 767px) { 
+       .gwpf-card-with-img-center{
+          padding: 25px;
+          padding-bottom: 0;
+      }
+  }
+
+
+  
+  
