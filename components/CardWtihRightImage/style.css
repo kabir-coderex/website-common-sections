@@ -1,5 +1,9 @@
 
  /* Card With Center Image */
+ figure{
+    padding: 0;
+    margin: 0;
+}
  .gwpf-card-with-img-center{
     border-radius: 24px;
     border: 1px solid #DECEE6;
@@ -29,7 +33,23 @@
     width: 80%;
 }
 
+
+ .gwpf-card-with-img-center.gwpf-card-with-img-right{
+    background: linear-gradient(180deg, #624CE6 0%, #6CA6F5 100%);
+    padding: 40px 0 0 40px;
+    position: relative;
+
+}
+.gwpf-card-with-img-center.gwpf-card-with-img-right .gwpf-card-img-wrapper{
+    margin-bottom: -5px;
+    margin-right: -5px;
+}
+
 /* Responsive styles */
+
+@media only screen and (max-width: 1199px) {
+   
+}
   
   @media only screen and (max-width: 991px) {
        .gwpf-card-with-img-center .gwpf-card-with-img-center-text{
@@ -46,6 +66,7 @@
        .gwpf-card-with-img-center{
           padding-bottom: 0;
       }
+
   }
   
   @media only screen and (max-width: 767px) { 
@@ -53,7 +74,20 @@
           padding: 25px;
           padding-bottom: 0;
       }
+
+       .gwpf-card-with-img-center.gwpf-card-with-img-right{
+        padding: 25px 0 0 25px;
+    }
+     .gwpf-card-with-img-center.gwpf-card-with-img-right figure{
+        width: 90%;
+    }
   }
+
+@media only screen and (max-width: 575px) {
+     .gwpf-card-with-img-center.gwpf-card-with-img-right figure{
+        width: 100%;
+    }
+}
 
 
   
