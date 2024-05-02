@@ -1,0 +1,162 @@
+/* Rest CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-top: 30px;
+    padding-bottom: 120px;
+}
+.gwpf-container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1380px;
+    padding: 0 15px;
+}
+.gwpf-primary-btn{
+    border-radius: 16px;
+    border: 1px solid #5B26C6;
+    background: linear-gradient(93deg, #6E42D3 2.25%, #7220F5 50.15%, #E35ED0 100%);
+    box-shadow: 0px 10px 24px 0px rgba(239, 212, 255, 0.70);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; 
+    padding: 21px 30px;
+    cursor: pointer;
+}
+/* CTA Section starts    */
+.gwpf-cta-section-container {
+    background-image: url(./mint-cta-bg.png);
+    background-size: 110% 110%;
+    background-repeat: no-repeat;
+    background-position: -10px 0px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #573BFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.gwpf-cta-section-container .gwpf-cta-section{
+    width: 60%;
+    margin: auto;
+}
+
+.gwpf-cta-section-container .gwpf-cta-section .gwpf-cta-heading{
+    text-align: center;
+    font-family: "Circular Std";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: -1px;
+    background: linear-gradient(178deg, #FFF 65.79%, #EFA9FF 97.66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 14px;
+}
+.gwpf-cta-section-container .gwpf-cta-section .gwpf-cta-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.gwpf-cta-section-container .gwpf-cta-section .gwpf-primary-btn{
+    border-radius: 16px;
+    border: 1px solid #F3FCFF;
+    background: linear-gradient(111deg, #FFF 6.83%, #FFF 51.99%, #09B8FB 116.58%, #0AB7FB 117.12%, #02C4FB 117.12%);
+    color: #1A1A1B;
+}
+/* CTA Section ends */
+
+
+/* Responsive styles */
+
+@media only screen and (max-width: 1199px) {
+    .gwpf-container{
+          max-width: 960px;
+    }
+    .gwpf-cta-section-container .gwpf-cta-section{
+        width: 90%;
+    }
+}
+  
+  @media only screen and (max-width: 991px) {
+      .gwpf-container {
+          max-width: 720px;
+      }
+      .gwpf-cta-section-container{
+        width: 95%;
+        margin: auto;
+      }
+      .gwpf-cta-section-container .gwpf-cta-section{
+          width: 80%;
+      }
+      section{
+          padding-bottom: 50px;
+      }
+      .gwpf-primary-btn{
+          font-size: 14px;
+          line-height: 14px;
+          padding: 16px 24px;
+      }
+      
+
+      .gwpf-cta-section-container .gwpf-cta-section .gwpf-cta-heading{
+          font-size: 34px;
+          line-height: 40px;
+      }
+      
+      .gwpf-cta-section-container .gwpf-cta-section .gwpf-cta-text{
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        width: 95%;
+      }
+      
+      .gwpf-cta-section-container{
+          padding-top: 50px;
+          padding-bottom: 50px;
+      }
+      
+  }
+  
+@media only screen and (max-width: 767px) {
+      .gwpf-container {
+          max-width: 540px;
+      }
+      
+      .gwpf-cta-section-container .gwpf-cta-section{
+          width: 100%;
+      }
+}
+
+@media only screen and (max-width: 575px) {
+    .gwpf-cta-section-container .gwpf-cta-section .gwpf-cta-heading{
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+  
