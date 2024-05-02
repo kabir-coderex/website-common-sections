@@ -25,4 +25,9 @@ In this repository there are the common sections of feature pages of both WPFunn
 
 - [FAQ Section](https://kabir-coderex.github.io/website-common-sections/components/FAQSection/index.html) - [Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/components/FAQSection)
 <br><br>
-![Card Image](./assets/faq-section.png)
+![FAQ Image](./assets/faq-section.png)
+
+
+- [WPF CTA Section](https://kabir-coderex.github.io/website-common-sections/components/WPF-CTA/index.html) - [Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/components/WPF-CTA)
+<br><br>
+![CTA Section Image of WPF](./assets/wpf-cta.png)
