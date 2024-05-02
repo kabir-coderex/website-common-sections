@@ -14,4 +14,8 @@ In this repository there are the common sections of feature pages of both WPFunn
 <br><br>
 ![Hero Section Image](./assets/hero-section.png)
 
+- [Card With Center Image](https://kabir-coderex.github.io/website-common-sections/components/CardWithCenterImage/index.html) - [Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/components/CardWithCenterImage)
+<br><br>
+![Card Image](./assets/CardWithCenterImage.png)
+
 
