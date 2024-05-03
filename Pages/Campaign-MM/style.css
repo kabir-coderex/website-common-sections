@@ -12,6 +12,7 @@ ul{
 figure{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 img{
@@ -157,18 +158,18 @@ h3{
     background-size: 100% 100%;
 }
 
-.gwpf-hero-section-wrapper .gwpf-hero-section-container{
+.gwpf-hero-section-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 40px;
 }
 
-.gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper{
+.gwpf-hero-section-container .gwpf-hero-text-wrapper{
     width: 80%;
 }
 
-.gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-hero-section-heading.gwpf-gradient-text{
+.gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-hero-section-heading.gwpf-gradient-text{
     background: linear-gradient(159deg, #0E1D3F 18.59%, #050DFF 59.74%, #06DEFF 82.31%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -176,7 +177,7 @@ h3{
     margin-bottom: 30px;
 }
 
-.gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
+.gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
     color: #3F4654;
     text-align: left;
     font-family: Manrope;
@@ -266,7 +267,8 @@ h3{
     padding-bottom: 0px;
     margin-top: 120px;
 }
-.gwpf-campaign-overview-section-header-wrapper{
+.gwpf-campaign-overview-section-header-wrapper,
+.gwpf-campaign-materials-section-header-wrapper{
     text-align: center;
     width: 74%;
     margin: 0 auto;
@@ -280,7 +282,8 @@ h3{
     margin-bottom: 16px;
 }
 
-.gwpf-campaign-overview-section-header-wrapper .gwpf-section-text{
+.gwpf-campaign-overview-section-header-wrapper .gwpf-section-text,
+.gwpf-campaign-materials-section-header-wrapper .gwpf-section-text{
     width: 60%;
     margin: auto;
 }
@@ -297,7 +300,70 @@ h3{
     margin-bottom: -84px;
 }
 
-/* Testing Section Ends */
+/* Campaign Overview Section Ends */
+/* Campaign materials Section Starts */
+.gwpf-campaign-materials-section-header-wrapper .gwpf-section-heading{
+    background: linear-gradient(92deg, #6E42D3 10.76%, #13071C 55.8%, #262DF3 75.27%, #DF52FF 95.96%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+.gwpf-campaign-materials-section-container .gwpf-img-wrapper{
+    margin-top: 60px;
+}
+
+.gwpf-campaign-materials-section-wrapper .gwpf-campaign-metarial-card{
+    grid-template-columns: 4fr 3fr;
+    gap: 90px;
+    margin-top: 120px;
+}
+
+.gwpf-campaign-materials-section-wrapper .gwpf-campaign-metarial-card .gwpf-hero-text-wrapper h2.gwpf-hero-section-heading.gwpf-gradient-text{
+    background: linear-gradient(173deg, #6E42D3 -5.05%, #13071C 47.9%, #262DF3 70.8%, #DF52FF 95.12%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+.gwpf-campaign-materials-section-wrapper .gwpf-campaign-metarial-card .gwpf-hero-text-wrapper .gwpf-section-text{
+    width: 90%;
+}
+.gwpf-email-templates-wrapper{
+    margin-top: 120px;
+    border-radius: 40px;
+    border: 1px solid #EAEAEA;
+    background: url(assets/container-bg.png), linear-gradient(180deg, #F3FAFA 0%, #FFF 100%);
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    padding: 0 40px 0 90px;
+    background-size: 100% 120%;
+}
+.gwpf-email-templates-wrapper .gwpf-image-wrapper img{
+    display: block;
+    margin-left: auto;
+}
+.gwpf-email-templates-wrapper .gwpf-hero-text-wrapper{
+    width: 80%;
+}
+
+.gwpf-email-templates-wrapper .gwpf-hero-text-wrapper h2.gwpf-hero-section-heading.gwpf-gradient-text {
+    background: linear-gradient(79deg, #6E42D3 14%, #13071C 36.59%, #262DF3 63.54%, #DF52FF 88.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.gwpf-email-templates-wrapper .gwpf-hero-text-wrapper .gwpf-section-text{
+    color: #3E3E42;
+    text-align: left;
+    margin-bottom: 40px;
+}
+/* Campaign materials Section Ends */
 
 
 
@@ -306,7 +372,7 @@ h3{
   .gwpf-container {
         max-width: 1170px;
   }
-  .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
+  .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
     width: 100%;
   }
   .gwpf-campaign-overview-section-container .gwpf-campaign-overview-section-img {
@@ -318,7 +384,7 @@ h3{
   .gwpf-container{
         max-width: 960px;
   }
-  .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper{
+  .gwpf-hero-section-container .gwpf-hero-text-wrapper{
     width: 100%;
   }
   .gwpf-hero-section-wrapper{
@@ -345,17 +411,35 @@ h3{
     height: 80px;
   }
 
-  .gwpf-campaign-overview-section-header-wrapper{
+  .gwpf-campaign-overview-section-header-wrapper,
+  .gwpf-campaign-materials-section-header-wrapper{
     width: 90%;
   }
-  .gwpf-campaign-overview-section-header-wrapper .wpfnl-section-text{
+  .gwpf-campaign-overview-section-header-wrapper .wpfnl-section-text,
+  .gwpf-campaign-materials-section-header-wrapper .wpfnl-section-text{
     width: 80%;
   }
 
   .gwpf-campaign-overview-section-container .gwpf-campaign-overview-section-img{
     margin-bottom: -55px;
   }
-  
+  .gwpf-campaign-materials-section-wrapper .gwpf-campaign-metarial-card {
+    gap: 50px;
+    grid-template-columns: 5fr 4fr;
+  }
+  .gwpf-campaign-materials-section-wrapper .gwpf-campaign-metarial-card .gwpf-hero-text-wrapper h2.gwpf-hero-section-heading.gwpf-gradient-text,
+  .gwpf-campaign-materials-section-wrapper .gwpf-campaign-metarial-card .gwpf-hero-text-wrapper .gwpf-section-text{
+    margin-bottom: 20px;
+  }
+  .gwpf-email-templates-wrapper{
+    padding-left: 50px;
+  }
+  .gwpf-email-templates-wrapper .gwpf-hero-text-wrapper{
+    width: 100%;
+  }
+  .gwpf-email-templates-wrapper .gwpf-image-wrapper img{
+    min-height: 600px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -392,7 +476,7 @@ h3{
     .gwpf-hero-section-wrapper{
         padding: 50px 0;
     }
-    .gwpf-hero-section-wrapper .gwpf-hero-section-container{
+    .gwpf-hero-section-container{
         grid-template-columns: 1fr;
     }
     .gwpf-hero-image-wrapper{
@@ -402,15 +486,15 @@ h3{
     .gwpf-container.gwpf-hero-section-container{
         text-align: center;
     }
-    .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
+    .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
         margin: auto;
         margin-bottom: 18px;
     }
-    .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-hero-section-heading{
+    .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-hero-section-heading{
         margin-bottom: 18px;
     }
     
-    .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
+    .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
         margin-bottom: 18px;
         text-align: center;
     }
@@ -444,7 +528,8 @@ h3{
     .gwpf-campaign-overview-section-header-wrapper{
         width: 100%;
     }
-    .gwpf-campaign-overview-section-header-wrapper .gwpf-section-text{
+    .gwpf-campaign-overview-section-header-wrapper .gwpf-section-text,
+    .gwpf-campaign-materials-section-header-wrapper .gwpf-section-text{
         width: 70%;
     }
     .gwpf-campaign-overview-section-container .gwpf-campaign-overview-section-img {
@@ -452,6 +537,45 @@ h3{
     }
     .gwpf-campaign-overview-section-header-wrapper .gwpf-button-wrapper{
         margin: 20px 0;
+    }
+
+    .gwpf-campaign-materials-section-container .gwpf-img-wrapper{
+        margin-top: 20px;
+    }
+
+    .gwpf-campaign-materials-section-header-wrapper{
+        width: 80%;
+    }
+    .gwpf-campaign-materials-section-wrapper .gwpf-campaign-metarial-card{
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    .gwpf-campaign-materials-section-wrapper .gwpf-campaign-metarial-card .gwpf-hero-text-wrapper h2.gwpf-hero-section-heading.gwpf-gradient-text{
+        text-align: center;
+    }
+    .gwpf-email-templates-wrapper{
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 40px;
+        padding-bottom: 0;
+    }
+    .gwpf-email-templates-wrapper .gwpf-hero-text-wrapper{
+        text-align: center;
+    }
+    .gwpf-email-templates-wrapper .gwpf-hero-text-wrapper h2.gwpf-hero-section-heading.gwpf-gradient-text{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .gwpf-email-templates-wrapper .gwpf-hero-text-wrapper .gwpf-section-text{
+        text-align: center;
+        width: 60%;
+        margin: 20px auto;
+    }
+    .gwpf-email-templates-wrapper .gwpf-image-wrapper img{
+        margin: auto;
+        min-height: auto;
     }
 }
 
@@ -478,10 +602,16 @@ h3{
     .gwpf-campaign-overview-section-container .gwpf-campaign-overview-section-img{
         margin-bottom: -35px;
     }
-    .gwpf-campaign-overview-section-header-wrapper .gwpf-section-text{
+    .gwpf-campaign-overview-section-header-wrapper .gwpf-section-text,
+    .gwpf-campaign-materials-section-header-wrapper .gwpf-section-text{
         width: 90%;
     }
-    
+    .gwpf-campaign-materials-section-header-wrapper{
+        width: 100%;
+    }
+    .gwpf-email-templates-wrapper .gwpf-hero-text-wrapper .gwpf-section-text{
+        width: 70%;
+    }
     
 }
 
@@ -490,7 +620,19 @@ h3{
         width: 95%;
     }
 
-    .gwpf-campaign-overview-section-header-wrapper .gwpf-section-text{
+    .gwpf-campaign-overview-section-header-wrapper .gwpf-section-text,
+    .gwpf-campaign-materials-section-header-wrapper .gwpf-section-text{
+        width: 100%;
+    }
+    .gwpf-email-templates-wrapper{
+        width: 95%;
+        padding: 30px;
+        padding-bottom: 0;
+    }
+    .gwpf-email-templates-wrapper .gwpf-hero-text-wrapper h2.gwpf-hero-section-heading.gwpf-gradient-text{
+        width: 100%;
+    }
+    .gwpf-email-templates-wrapper .gwpf-hero-text-wrapper .gwpf-section-text{
         width: 100%;
     }
 }
