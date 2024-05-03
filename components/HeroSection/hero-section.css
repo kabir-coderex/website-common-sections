@@ -13,13 +13,13 @@ img{
 section{
     padding-bottom: 120px;
 }
-.wpfnl-container{
+.gwpf-container{
     width: 100%;
     margin: 0 auto;
     max-width: 1380px;
     padding: 0 15px;
 }
-.wpfnl-section-text{
+.gwpf-section-text{
     color: #292D34;
     font-family: Inter;
     font-size: 16px;
@@ -29,7 +29,7 @@ section{
     margin-bottom: 30px;
     margin-top: 0px;
 }
-.wpfnl-primary-btn{
+.gwpf-primary-btn{
     border-radius: 16px;
     border: 1px solid #5B26C6;
     background: linear-gradient(93deg, #6E42D3 2.25%, #7220F5 50.15%, #E35ED0 100%);
@@ -45,7 +45,7 @@ section{
 }
 
 /* Hero Section Starts */
-.wpfnl-hero-section-wrapper{
+.gwpf-hero-section-wrapper{
     width: 100%;
     display: flex;
     align-items: center;
@@ -54,14 +54,14 @@ section{
     padding-top: 120px;
 }
 
-.wpfnl-hero-section-wrapper .wpfnl-hero-section-container{
+.gwpf-hero-section-wrapper .gwpf-hero-section-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 40px;
 }
 
-.wpfnl-hero-section-wrapper .wpfnl-hero-section-container .wpfnl-hero-text-wrapper .wpfnl-hero-section-heading{
+.gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-hero-section-heading{
     font-family: "Circular Std";
     font-size: 60px;
     font-style: normal;
@@ -75,7 +75,7 @@ section{
     margin-bottom: 30px;
 }
 
-.wpfnl-hero-section-wrapper .wpfnl-hero-section-container .wpfnl-hero-text-wrapper .wpfnl-section-text{
+.gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
     width: 80%;
 }
 
@@ -84,55 +84,55 @@ section{
 
 /* Responsive styles */
 @media only screen and (max-width: 1399px) {
-  .wpfnl-container {
+  .gwpf-container {
         max-width: 1170px;
   }
 
 }
 
 @media only screen and (max-width: 1199px) {
-  .wpfnl-container{
+  .gwpf-container{
         max-width: 960px;
   }
 }
 
 @media only screen and (max-width: 991px) {
-    .wpfnl-container {
+    .gwpf-container {
         max-width: 720px;
     }
     section{
         padding-bottom: 50px;
     }
-    .wpfnl-primary-btn{
+    .gwpf-primary-btn{
         font-size: 14px;
         line-height: 14px;
         padding: 16px 24px;
     }
-    .wpfnl-hero-section-wrapper{
+    .gwpf-hero-section-wrapper{
         padding: 50px 0;
     }
-    .wpfnl-hero-section-wrapper .wpfnl-hero-section-container{
+    .gwpf-hero-section-wrapper .gwpf-hero-section-container{
         grid-template-columns: 1fr;
         gap: 10px
     }
-    .wpfnl-hero-image-wrapper{
+    .gwpf-hero-image-wrapper{
         width: 80%;
         margin: auto;
     }
-    .wpfnl-container.wpfnl-hero-section-container{
+    .gwpf-container.gwpf-hero-section-container{
         text-align: center;
     }
-    .wpfnl-hero-section-wrapper .wpfnl-hero-section-container .wpfnl-hero-text-wrapper .wpfnl-section-text{
+    .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
         margin: auto;
         margin-bottom: 18px;
     }
-    .wpfnl-hero-section-wrapper .wpfnl-hero-section-container .wpfnl-hero-text-wrapper .wpfnl-hero-section-heading{
+    .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-hero-section-heading{
         font-size: 34px;
         line-height: 40px;
         margin-bottom: 18px;
     }
     
-    .wpfnl-section-text{
+    .gwpf-section-text{
         font-size: 14px;
         line-height: 24px;
         margin-bottom: 18px;
@@ -140,13 +140,13 @@ section{
 }
 
 @media only screen and (max-width: 767px) {
-    .wpfnl-container {
+    .gwpf-container {
         max-width: 540px;
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .wpfnl-hero-image-wrapper{
+    .gwpf-hero-image-wrapper{
         width: 100%;
     }
 }
