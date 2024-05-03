@@ -114,7 +114,7 @@ h3{
     cursor: pointer;
     border-radius: 16px;
     padding: 15px;
-    border-color: snow;
+    border-color: transparent;
 }
 
 .gwpf-btn-outline:hover{
@@ -257,6 +257,48 @@ h3{
 }
 /* Compare Section Ends */
 
+/* Testing Section Starts */
+.gwpf-campaign-overview-section-wrapper{
+    background: url(assets/overview-bg.png), linear-gradient(91deg, #EAF7FF 0.71%, #F3F2FF 99.19%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 0px;
+    margin-top: 120px;
+}
+.gwpf-campaign-overview-section-header-wrapper{
+    text-align: center;
+    width: 74%;
+    margin: 0 auto;
+}
+.gwpf-campaign-overview-section-header-wrapper .gwpf-section-heading{
+    background: linear-gradient(79deg, #6E42D3 14%, #13071C 41.17%, #262DF3 68.19%, #111827 97.96%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.gwpf-campaign-overview-section-header-wrapper .gwpf-section-text{
+    width: 60%;
+    margin: auto;
+}
+
+.gwpf-campaign-overview-section-header-wrapper .gwpf-button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    margin: 40px 0;
+}
+
+.gwpf-campaign-overview-section-container .gwpf-campaign-overview-section-img{
+    margin-bottom: -84px;
+}
+
+/* Testing Section Ends */
+
 
 
 /* Responsive styles */
@@ -266,6 +308,9 @@ h3{
   }
   .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
     width: 100%;
+  }
+  .gwpf-campaign-overview-section-container .gwpf-campaign-overview-section-img {
+    margin-bottom: -72px;
   }
 }
 
@@ -298,6 +343,17 @@ h3{
   .gwpf-tic-icon {
     width: 80px;
     height: 80px;
+  }
+
+  .gwpf-campaign-overview-section-header-wrapper{
+    width: 90%;
+  }
+  .gwpf-campaign-overview-section-header-wrapper .wpfnl-section-text{
+    width: 80%;
+  }
+
+  .gwpf-campaign-overview-section-container .gwpf-campaign-overview-section-img{
+    margin-bottom: -55px;
   }
   
 }
@@ -381,7 +437,22 @@ h3{
     .gwpf-compare-section-wrapper .gwpf-compare-section-container h2 {
         width: 100%;
     }
-    
+    .gwpf-campaign-overview-section-wrapper{
+        margin-top: 50px;
+    }
+
+    .gwpf-campaign-overview-section-header-wrapper{
+        width: 100%;
+    }
+    .gwpf-campaign-overview-section-header-wrapper .gwpf-section-text{
+        width: 70%;
+    }
+    .gwpf-campaign-overview-section-container .gwpf-campaign-overview-section-img {
+        margin-bottom: -45px;
+    }
+    .gwpf-campaign-overview-section-header-wrapper .gwpf-button-wrapper{
+        margin: 20px 0;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -403,6 +474,13 @@ h3{
     .gwpf-tic-icon svg{
         width: 30px;
     }
+
+    .gwpf-campaign-overview-section-container .gwpf-campaign-overview-section-img{
+        margin-bottom: -35px;
+    }
+    .gwpf-campaign-overview-section-header-wrapper .gwpf-section-text{
+        width: 90%;
+    }
     
     
 }
@@ -410,5 +488,9 @@ h3{
 @media only screen and (max-width: 575px) {
     .gwpf-hero-image-wrapper{
         width: 95%;
+    }
+
+    .gwpf-campaign-overview-section-header-wrapper .gwpf-section-text{
+        width: 100%;
     }
 }
