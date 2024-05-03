@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style: none;
+}
+
 figure{
     margin: 0;
     padding: 0;
@@ -54,6 +58,16 @@ h2{
     font-weight: 900;
     line-height: 58px;
     letter-spacing: -1px;
+}
+h3{
+    color: #0E1D3F;
+    font-family: "Circular Std";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1; 
+    letter-spacing: -1.61px;
+    margin-bottom: 40px;
 }
 .gwpf-container{
     width: 100%;
@@ -175,6 +189,74 @@ h2{
 }
 /* Hero Section Ends */
 
+/* Compare Section Starts */
+.gwpf-compare-section-wrapper{
+    padding: 0;
+}
+
+.gwpf-compare-section-wrapper .gwpf-compare-section-container{
+    border-radius: 40px;
+    border: 1px solid #EAEAEA;
+    background:url('assets/container-bg.png') ,linear-gradient(180deg, #F3FAFA 0%, #FFF 100%);
+    padding: 90px 70px 70px 120px;
+    background-repeat: no-repeat;
+}
+.gwpf-compare-section-wrapper .gwpf-compare-section-container h2{
+    background: linear-gradient(79deg, #6E42D3 14%, #13071C 36.59%, #262DF3 63.54%, #DF52FF 88.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 70%;
+    margin: auto;
+}
+.gwpf-compare-cards-wrapper{
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+.gwpf-compare-single-card {
+    border-radius: 20px;
+    border: 1px solid #EAEAEA;
+    background: #FFF;
+    box-shadow: 0px 20px 20px 0px rgba(208, 215, 242, 0.30);
+    padding: 50px;
+    width: calc(50% - 30px);
+}
+.gwpf-single-list{
+    display: flex;
+    gap: 29px;
+    margin-bottom: 25px;
+}
+
+.gwpf-compare-single-card .gwpf-single-list span.gwpf-compare-card-text{
+    color: #3E3E42;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-top: -8px;
+}
+.gwpf-compare-single-card.gwpf-compare-signle-card-proud{
+    margin-top: 60px;
+    position: relative;
+    padding-top: 80px;
+}
+.gwpf-tic-icon{
+    background: #19CCA3;
+    width: 103px;
+    height: 103px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -12%;
+    left: 40%;
+}
+/* Compare Section Ends */
+
 
 
 /* Responsive styles */
@@ -197,6 +279,26 @@ h2{
   .gwpf-hero-section-wrapper{
     background-image: none;
   }
+  .gwpf-compare-single-card{
+    padding: 30px;
+  }
+  .gwpf-single-list{
+    margin-bottom: 15px;
+  }
+  .gwpf-compare-section-wrapper .gwpf-compare-section-container h2{
+    width: 90%;
+  }
+  .gwpf-compare-section-wrapper .gwpf-compare-section-container{
+    padding: 90px 40px 70px 40px;
+  }
+  .gwpf-compare-single-card .gwpf-single-list span.gwpf-compare-card-text{
+    font-size: 22px;
+    margin-top: 0;
+  }
+  .gwpf-tic-icon {
+    width: 80px;
+    height: 80px;
+  }
   
 }
 
@@ -208,6 +310,10 @@ h2{
     h2{
         font-size: 30px;
         line-height: 36px;
+    }
+    h3{
+        font-size: 24px;
+        margin-bottom: 20px;
     }
     p{
         font-size: 14px;
@@ -252,6 +358,29 @@ h2{
         margin-bottom: 18px;
         text-align: center;
     }
+    .gwpf-compare-section-wrapper .gwpf-compare-section-container{
+        width: 95%;
+    }
+    .gwpf-compare-cards-wrapper{
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .gwpf-compare-single-card{
+        width: 100%;
+    }
+    .gwpf-single-list{
+        margin-bottom: 10px;
+    }
+    .gwpf-tic-icon {
+        left: 45%;
+    }
+    .gwpf-compare-single-card .gwpf-single-list span.gwpf-compare-card-text{
+        font-size: 18px;
+    }
+    .gwpf-compare-section-wrapper .gwpf-compare-section-container h2 {
+        width: 100%;
+    }
     
 }
 
@@ -259,12 +388,27 @@ h2{
     .gwpf-container {
         max-width: 540px;
     }
+    .gwpf-compare-section-wrapper .gwpf-compare-section-container{
+        padding: 25px;
+    }
+    .gwpf-compare-single-card.gwpf-compare-signle-card-proud{
+        padding-top: 50px;
+    }
+    .gwpf-tic-icon{
+        width: 60px;
+        height: 60px;
+        top: -10%;
+        left: 42%;
+    }
+    .gwpf-tic-icon svg{
+        width: 30px;
+    }
     
     
 }
 
 @media only screen and (max-width: 575px) {
     .gwpf-hero-image-wrapper{
-        width: 100%;
+        width: 95%;
     }
 }
