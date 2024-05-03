@@ -1,0 +1,188 @@
+/* Rest CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    padding:0 120px;
+}
+
+p{
+    color: #0E1D3F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+p.gwpf-card-text{
+    color: #3E3E42;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+h1{
+    font-family: "Circular Std";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: -1.61px;
+}
+h2{
+    text-align: center;
+    font-family: "Circular Std";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: -1px;
+}
+.gwpf-container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1380px;
+    padding: 0 15px;
+}
+
+.gwpf-gradient-text{
+    background: linear-gradient(173deg, #6E42D3 -5.05%, #13071C 47.9%, #262DF3 70.8%, #DF52FF 95.12%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gwpf-primary-btn{
+    border-radius: 16px;
+    border: 1px solid #080CCF;
+    background: linear-gradient(94deg, #060FEF 4.33%, #573BFF 50.88%, #09B8FB 98.87%, #0AB7FB 99.34%, #02C4FB 99.34%);
+    box-shadow: 0px 10px 20px 0px rgba(134, 135, 244, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: "Circular Std";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 10px; 
+    padding: 25px 30px;
+    cursor: pointer;
+}
+.gwpf-btn-outline{
+    background: none;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    color: #0E1D3F;
+    text-align: center;
+    font-family: "Circular Std";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    padding: 15px;
+    border-color: snow;
+}
+
+.gwpf-btn-outline:hover{
+    border-color: #5B26C6;
+}
+
+.gwpf-btn-full-round{
+    background: no-repeat;
+    border: 1px solid #6F42D4;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.gwpf-btn{
+    background: none;
+    border: 1px solid #6F42D4;
+    color: #FFF;
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    padding: 18px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+
+/* Responsive styles */
+@media only screen and (max-width: 1399px) {
+  .gwpf-container {
+        max-width: 1170px;
+  }
+
+}
+
+@media only screen and (max-width: 1199px) {
+  .gwpf-container{
+        max-width: 960px;
+  }
+  
+}
+
+@media only screen and (max-width: 991px) {
+    h1{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    section{
+        padding:0 50px;
+    }
+    .gwpf-container {
+        max-width: 720px;
+    }
+    .wpfnl-primary-btn{
+        font-size: 14px;
+        line-height: 14px;
+        padding: 16px 24px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .gwpf-container {
+        max-width: 540px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 575px) {
+    
+}
