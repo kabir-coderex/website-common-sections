@@ -122,6 +122,9 @@ h3{
     }
 
     /* Card With Image Section */
+    .card-with-img-section-container .gwpf-cards-wrapper .gwpf-single-card .gwpf-card-img-wrapper{
+        height: 210px;
+    }
     .card-with-img-section-container .gwpf-section-text-wrapper {
         width: 90%;
     }
