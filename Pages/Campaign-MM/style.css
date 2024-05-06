@@ -992,6 +992,10 @@ h3{
     width: 95%;
     margin: auto;
   }
+  .gwpf-campaign-overview-section-header-wrapper .gwpf-button-wrapper{
+    flex-direction: column;
+    gap: 10px;
+  }
     
 }
 
