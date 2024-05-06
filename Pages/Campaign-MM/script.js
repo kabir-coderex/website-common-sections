@@ -13,3 +13,9 @@ document.getElementById("gwpf-openModal").addEventListener("click", function () 
     document.getElementById("gwpf-openModal").focus();
   });
   
+  // Accordion.js
+document.querySelectorAll(".gwpf-accordion-item").forEach((item) => {
+  item.querySelector(".gwpf-accordion-item-header").addEventListener("click", () => {
+    item.classList.toggle("open");
+  });
+});
