@@ -35,3 +35,7 @@ In this repository there are the common sections of feature pages of both WPFunn
 - [Mail Mint CTA Section](https://kabir-coderex.github.io/website-common-sections/components/MintCTA/index.html) - [Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/components/MintCTA)
 <br><br>
 ![CTA Section Image of WPF](./assets/cta-mail-mint.png)
+
+- [Card With Image Section](https://kabir-coderex.github.io/website-common-sections/components/CardWithImageSection/index.html) - [Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/components/CardWithImageSection)
+<br><br>
+![Card With Image Section ](./assets/card-with-img-section.png)
