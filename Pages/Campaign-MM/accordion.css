@@ -14,7 +14,7 @@
   
 .gwpf-accordion .gwpf-accordion-item {
     border-radius: 16px;
-    border: 1px solid #E9E4F2;
+    border: 1px solid #E3EAF3;
     background: none;
     text-align: left;
     padding: 15px 25px;
@@ -29,7 +29,6 @@
 }
 
 .gwpf-accordion .gwpf-accordion-item.open{
-    border-radius: 24px;
     background: #FFF;
 }
 
@@ -91,9 +90,6 @@ p {
 
 /* Responsiveness */
 @media only screen and (max-width: 991px) {
-    .gwpf-faq-section-wrapper{
-        padding: 50px 0;
-    }
     .gwpf-faq-section-wrapper .gwpf-section-header{
         font-size: 36px;
         line-height: 46px;
@@ -112,5 +108,8 @@ p {
         font-size: 14px;
         line-height: 1.8;
         padding-top: 0;
+    }
+    .gwpf-accordion .gwpf-accordion-item{
+        border-radius: 14px;
     }
 }
