@@ -150,7 +150,6 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(assets/hero-bg.png);
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 100% 100%;
@@ -397,7 +396,7 @@ h3{
 .gwpf-card-with-img-center{
     border-radius: 24px;
     border: 1px solid #DECEE6;
-    padding: 40px;
+    padding: 30px;
     padding-bottom: 0;
     background: linear-gradient(180deg, #DD578F 0%, #EE8134 100%);
     overflow: hidden;
@@ -744,6 +743,9 @@ h3{
     .gwpf-hero-section-container{
         grid-template-columns: 1fr;
     }
+    .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text {
+        width: 90%;
+    }
     .gwpf-hero-image-wrapper{
         width: 80%;
         margin: auto;
@@ -835,7 +837,7 @@ h3{
     }
     .gwpf-email-templates-wrapper .gwpf-hero-text-wrapper .gwpf-section-text{
         text-align: center;
-        width: 60%;
+        width: 80%;
         margin: 20px auto;
     }
     .gwpf-email-templates-wrapper .gwpf-image-wrapper img{
@@ -905,10 +907,18 @@ h3{
     }
 
     .gwpf-card-with-img-center {
-        padding: 30px;
+        padding: 20px;
     }
     .gwpf-campaign-manage-section-container .gwpf-cards-wrapper .gwpf-card-with-img-center.gwpf-card-with-img-right{
         padding: 20px 0 0 20px;
+    }
+    .gwpf-email-templates-wrapper{
+        margin-top: 50px;
+    }
+
+    .gwpf-campaign-manage-section-container .gwpf-cards-wrapper .gwpf-card-with-img-center .gwpf-card-with-img-center-header{
+        font-size: 20px;
+        margin-bottom: 20px;
     }
 
 }
@@ -988,7 +998,7 @@ h3{
 
     .gwpf-campaign-overview-section-header-wrapper .gwpf-section-text,
     .gwpf-campaign-materials-section-header-wrapper .gwpf-section-text{
-        width: 100%;
+        width: 90%;
     }
     .gwpf-email-templates-wrapper{
         width: 95%;
