@@ -50,12 +50,12 @@ h2{
     margin-bottom: 16px;
 }
 h3{
-    color: #0E1D3F;
+    color: #2A0C43;
     font-family: "Circular Std";
-    font-size: 38px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1; 
+    line-height: 1.2; 
     letter-spacing: -1px;
 }
 
@@ -577,6 +577,63 @@ p.gwpf-author-name {
 }
 /* FAQ Section ends */
 
+/* Journey Plan Section Starts */
+.gwpf-journey-plan-section-wrapper{
+    margin-top: 120px;
+    padding-bottom: 0;
+}
+.gwpf-journey-plan-section-container .gwpf-section-text-wrapper{
+    width: 78%;
+    margin: auto;
+}
+.gwpf-journey-plan-section-container .gwpf-section-text-wrapper .gwpf-section-header{
+    background: linear-gradient(77deg, #111827 28.07%, #6E42D3 64.39%, #DF52FF 92.96%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gwpf-journey-plan-section-container .gwpf-journey-card{
+    border-radius: 24px;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    gap: 45px;
+    align-items: center;
+    overflow: hidden;
+}
+.gwpf-journey-plan-section-container .gwpf-journey-card .gwpf-card-heading{ 
+    margin: 16px 0;
+}
+.gwpf-journey-plan-section-container .gwpf-journey-card .gwpf-card-text{
+    font-size: 16px;
+}
+.gwpf-journey-plan-section-container .gwpf-journey-card.gwpf-journey-card-1{
+    background: url(assets/card-bg-img.png), linear-gradient(180deg, #F5E1FE 0%, #FFF 100%);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 45px;
+}
+
+.gwpf-journey-plan-section-container .gwpf-journey-card.gwpf-journey-card-2{
+    border: 1px solid #EAEAEA;
+    background: linear-gradient(180deg, #F3FAFA 0%, #FFF 100%);
+    margin-top: 45px;
+}
+
+.gwpf-journey-plan-section-container .gwpf-journey-card.gwpf-journey-card-2 .gwpf-card-text-wrapper{
+    padding: 45px;
+    padding-right: 0;
+}
+
+.gwpf-journey-plan-section-container .gwpf-journey-card.gwpf-journey-card-2 .gwpf-img-wrapper img{
+    display: block;
+    margin-left: auto;
+    margin-right: -3px;
+    margin-top: -1px;
+}
+/* Journey Plan Section Ends */
+
 
 /* Responsive styles */
 @media only screen and (max-width: 1399px) {
@@ -623,6 +680,22 @@ p.gwpf-author-name {
   .gwpf-video-wrapper{
     height: 500px;
   }
+
+  /* Journey Plan Section */
+  .gwpf-journey-plan-section-container .gwpf-section-text-wrapper {
+    width: 100%;
+  }
+  .gwpf-journey-plan-section-container .gwpf-journey-card{
+    grid-template-columns: 4fr 8fr;
+  }
+  .gwpf-journey-plan-section-container .gwpf-journey-card.gwpf-journey-card-2 .gwpf-img-wrapper{
+    width: 100%;
+    height: 100%;
+  }
+  .gwpf-journey-plan-section-container .gwpf-journey-card.gwpf-journey-card-2 .gwpf-img-wrapper figure,
+  .gwpf-journey-plan-section-container .gwpf-journey-card.gwpf-journey-card-2 .gwpf-img-wrapper figure img{
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -630,7 +703,8 @@ p.gwpf-author-name {
         font-size: 34px;
         line-height: 40px;
     }
-    h2{
+    h2,
+    .gwpf-section-header{
         font-size: 30px;
         line-height: 36px;
     }
@@ -780,6 +854,26 @@ p.gwpf-author-name {
         padding: 15px;
         border-radius: 16px;
         height: 380px;
+    }
+
+    /* Journey Plan Section */
+    .gwpf-journey-plan-section-container .gwpf-section-text-wrapper .gwpf-section-header{
+        margin-bottom: 40px;
+    }
+    .gwpf-journey-plan-section-container .gwpf-journey-card .gwpf-card-heading{
+        margin: 10px 0;
+    }
+    .gwpf-journey-plan-section-container .gwpf-journey-card{
+        grid-template-columns: 1fr;
+        gap: 30px;
+        border-radius: 18px;
+    }
+    .gwpf-journey-plan-section-container .gwpf-journey-card.gwpf-journey-card-1{
+        padding: 25px;
+    }
+    .gwpf-journey-plan-section-container .gwpf-journey-card.gwpf-journey-card-2 .gwpf-card-text-wrapper{
+        padding: 25px;
+        padding-bottom: 0;
     }
 }
 
