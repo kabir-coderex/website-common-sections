@@ -56,8 +56,7 @@ h3{
     font-style: normal;
     font-weight: 500;
     line-height: 1; 
-    letter-spacing: -1.61px;
-    margin-bottom: 40px;
+    letter-spacing: -1px;
 }
 
 .gwpf-container{
@@ -182,6 +181,7 @@ h3{
 
 .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
     width: 80%;
+    text-align: left;
 }
 
 /* Hero Section Ends */
@@ -271,7 +271,12 @@ h3{
     padding-top: 120px;
 }
 .gwpf-impliment-section-container .gwpf-profit-section-text-wrapper{
-    width: 100%;
+    width: 50%;
+    margin: auto;
+}
+.gwpf-impliment-section-container .gwpf-profit-section-text-wrapper .gwpf-section-text{
+    width: 90%;
+    margin: auto;
 }
 .gwpf-impliment-section-cards-wrapper{
     display: grid;
@@ -284,6 +289,17 @@ h3{
     border: 1px solid #DECEE6;
     padding: 40px;
     padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card .gwpf-img-wrapper{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card .gwpf-impliment-single-card-header {
@@ -310,6 +326,12 @@ h3{
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-1{
     background: linear-gradient(180deg, #DD578F 0%, #EE8134 100%);
 }
+.gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-1 .gwpf-img-wrapper{
+    background: url(assets/funnel-plus-growth-bg.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: 50% 30%;
+}
 
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-2{
     background: linear-gradient(180deg, #08020C 0%, #2C0C47 56.01%, #4D157C 100%);
@@ -320,8 +342,12 @@ h3{
 }
 
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-4{
-    background: url('assets/accurate-data-png.png') ,linear-gradient(180deg, #F5E1FE 0%, #FFF 100%);
+    background: url(assets/single-card-bg.png), linear-gradient(180deg, #F3FAFA 0%, #FFF 100%);
+    border: 1px solid #EAEAEA;
     padding-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 70%;
     
 }
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-4 .gwpf-impliment-single-card-header{
@@ -332,14 +358,9 @@ h3{
 }
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-3{
     background: linear-gradient(180deg, #624CE6 0%, #6CA6F5 100%);
-    padding: 40px 0 0 40px;
-    position: relative;
+    padding: 40px;
 }
-.gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-3 figure{
-    position: absolute;
-    bottom: -5px;
-    right: -2px;
-}
+
 /* Implement Section Ends */
 
 
@@ -581,6 +602,20 @@ p.gwpf-author-name {
     left: 15%;
   }
 
+  /* Implement Section */
+  .gwpf-impliment-section-container .gwpf-profit-section-text-wrapper{
+    width: 80%;
+  }
+  .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-1 .gwpf-img-wrapper{
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+  }
+  .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-1 .gwpf-img-wrapper img{
+    width: 80%;
+    margin-top: 10px;
+  }
+
   /* Video Section */
   .gwpf-video-section-container .gwpf-section-text-wrapper {
     width: 90%;
@@ -601,12 +636,10 @@ p.gwpf-author-name {
     }
     h3{
         font-size: 24px;
-        margin-bottom: 20px;
     }
     p{
         font-size: 14px;
         line-height: 24px;
-        text-align: center;
     }
     .gwpf-container {
         max-width: 720px;
@@ -636,6 +669,7 @@ p.gwpf-author-name {
     .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-section-text{
         margin: auto;
         margin-bottom: 18px;
+        text-align: center;
     }
     .gwpf-hero-section-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-hero-section-heading,
     .gwpf-cta-text,
@@ -705,8 +739,12 @@ p.gwpf-author-name {
         min-width: 600px;
     }
     .gwpf-impliment-section-container .gwpf-profit-section-text-wrapper .gwpf-section-text{
-        width: 75%;
+        width: 95%;
         margin: auto;
+    }
+    .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-1 .gwpf-img-wrapper{
+        background: none;
+        padding-bottom: 20px;
     }
 
     .gwpf-clients-review-section-container{
@@ -756,7 +794,7 @@ p.gwpf-author-name {
     }
     .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-3{
         min-height: 360px;
-        padding: 25px 0 0 25px;
+        padding: 25px;
     }
     .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-3 figure{
         width: 90%;
@@ -770,6 +808,15 @@ p.gwpf-author-name {
     .gwpf-container.gwpf-faq-section-container .gwpf-accordion,
     .gwpf-impliment-section-container .gwpf-profit-section-text-wrapper .gwpf-section-text{
         width: 100%;
+    }
+    .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-1 .gwpf-img-wrapper{
+        padding-bottom: 10px;
+    }
+    .gwpf-impliment-section-container .gwpf-profit-section-text-wrapper{
+        width: 100%;
+    }
+    .gwpf-impliment-section-container .gwpf-profit-section-text-wrapper .gwpf-section-text{
+        width: 95%;
     }
 
     .gwpf-clients-review-section-container{
