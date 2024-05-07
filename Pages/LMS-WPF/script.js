@@ -7,10 +7,9 @@ document.querySelectorAll(".gwpf-accordion-item").forEach((item) => {
 
 // Video Play
 document.querySelector("#gwpf-play-video").addEventListener('click', ()=>{
-    // document.querySelector("#gwpf-video").play();
-    let iframe = document.getElementById('gwpf-video-iframe');
-    let url = iframe.src += '?autoplay=1';
-    iframe.setAttribute('src', url);
+    let iframeWrapper = document.getElementById('gwpf-iframe-wrapper');
+    iframeWrapper.innerHTML = `<iframe id="gwpf-video-iframe" width="560" height="315" src="https://www.youtube.com/embed/AprdFvhjsH0?si=rNQY1iLpPGdCmkij?autoplay=1" title="Build LMS Funnel with WPFunnel" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+
     // Hide the overlay
     document.querySelector('.gwpf-thumbnail-overlay').style.display = 'none';
 })
