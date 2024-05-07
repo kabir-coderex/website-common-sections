@@ -33,20 +33,44 @@ function getScrollAmount() {
 
 
 const carrouselWrapper = document.querySelector('.gwpf-clients-review-section-container .gwpf-carousel-wrapper')
-document.querySelectorAll('#gwpf-next-btn').forEach(item => {
-    item.addEventListener('click', ()=>{
-        if(carrouselWrapper){
-            carrouselWrapper.scrollLeft += getScrollAmount();
-        }
-    })
+document.querySelectorAll('#gwpf-next-btn')?.forEach(item => {
+    if(item){
+        item.addEventListener('click', ()=>{
+            if(carrouselWrapper){
+                carrouselWrapper.scrollLeft += getScrollAmount();
+            }
+        })
+    }
 })
 
-document.querySelectorAll('#gwpf-pre-btn').forEach(item => {
-    item.addEventListener('click', ()=>{
-        if(carrouselWrapper){
-            carrouselWrapper.scrollLeft -= getScrollAmount();
-        }
-    })
+document.querySelectorAll('#gwpf-next-btn-mobile')?.forEach(item => {
+    if(item){
+        item.addEventListener('click', ()=>{
+            if(carrouselWrapper){
+                carrouselWrapper.scrollLeft += getScrollAmount();
+            }
+        })
+    }
+})
+
+document.querySelectorAll('#gwpf-pre-btn')?.forEach(item => {
+    if(item){
+        item.addEventListener('click', ()=>{
+            if(carrouselWrapper){
+                carrouselWrapper.scrollLeft -= getScrollAmount();
+            }
+        })
+    }
+})
+
+document.querySelectorAll('#gwpf-pre-btn-mobile')?.forEach(item => {
+    if(item){
+        item.addEventListener('click', ()=>{
+            if(carrouselWrapper){
+                carrouselWrapper.scrollLeft -= getScrollAmount();
+            }
+        })
+    }
 })
 
 // Horizontal scroll with mouse drag section starts
