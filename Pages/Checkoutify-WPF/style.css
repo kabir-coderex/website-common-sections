@@ -89,6 +89,8 @@ h3{
     line-height: 18px; 
     padding: 21px 30px;
     cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
 }
 .gwpf-btn-outline{
     background: none;
