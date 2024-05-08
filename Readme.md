@@ -5,7 +5,9 @@ In this repository there are the common sections of feature pages of both WPFunn
 ### WPFunnel
 - [AB Testing Feature Page](https://kabir-coderex.github.io/website-common-sections/Pages/ABTesting-WPF/index.html) - [View Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/Pages/ABTesting-WPF)
 
-- [LMS Testing Feature Page](https://kabir-coderex.github.io/website-common-sections/Pages/LMS-WPF/index.html) - [View Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/Pages/LMS-WPF)
+- [LMS Feature Page](https://kabir-coderex.github.io/website-common-sections/Pages/LMS-WPF/index.html) - [View Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/Pages/LMS-WPF)
+
+- [Checkoutify Feature Page](https://kabir-coderex.github.io/website-common-sections/Pages/Checkoutify-WPF/index.html) - [View Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/Pages/Checkoutify-WPF)
 
 ### Mail Mint
 - [Campaign Feature Page](https://kabir-coderex.github.io/website-common-sections/Pages/Campaign-MM/index.html) - [View Source Code](https://github.com/kabir-coderex/website-common-sections/tree/develop/Pages/Campaign-MM)
