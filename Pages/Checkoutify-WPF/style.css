@@ -10,6 +10,11 @@ img{
     height: auto;
 }
 
+figure{
+    margin: 0;
+    padding: 0;
+}
+
 section{
     padding-bottom: 120px;
 }
@@ -56,7 +61,6 @@ h3{
     font-style: normal;
     font-weight: 500;
     line-height: 1.3; 
-    letter-spacing: -1px;
 }
 
 .gwpf-container{
@@ -189,6 +193,17 @@ h3{
 .gwpf-no-more-limitation-wrapper.gwpf-hero-section-wrapper{
     background: none;
 }
+.gwpf-hero-section-wrapper.gwpf-no-more-limitation-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-hero-section-heading{
+    color: #111827;
+    background: none;
+    background-clip: text;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    text-align: left;
+    font-size: 52px;
+    line-height: 1.11;
+    letter-spacing: -1;
+}
 /* No Limits Section Ends */
 
 /* Video Section Starts */
@@ -209,6 +224,7 @@ h3{
     border: 5px solid #fff;
     height: 600px;
     filter: drop-shadow(0px -20px 40px rgba(221, 218, 231, 0.40));
+    margin-top: 70px;
 }
 
 .gwpf-video-wrapper .gwpf-video-container{
@@ -296,7 +312,6 @@ h3{
 }
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card{
     border-radius: 24px;
-    border: 1px solid #DECEE6;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -372,6 +387,7 @@ h3{
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-3 .gwpf-img-wrapper,
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-4 .gwpf-img-wrapper{
     justify-content: flex-end;
+    margin-top: auto;
 }
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-3 .gwpf-img-wrapper img,
 .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-4 .gwpf-img-wrapper img{
@@ -386,6 +402,12 @@ h3{
     width: 80%;
 }
 
+.gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-1 .gwpf-img-wrapper{
+    margin-top: auto;
+}
+.gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-1 .gwpf-impliment-single-card-header{
+    width: 80%;
+}
 /* Implement Section Ends */
 
 
@@ -518,7 +540,7 @@ p.gwpf-author-name {
     align-items: center;
     justify-content: center;
     gap: 45px;
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
 }
 
@@ -610,6 +632,10 @@ p.gwpf-author-name {
         max-width: 1170px;
   }
 
+  .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-1 .gwpf-impliment-single-card-header{
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 1199px) {
@@ -630,7 +656,7 @@ p.gwpf-author-name {
   }
 
   .gwpf-cta-section{
-    width: 80%;
+    width: 60%;
   }
   .gwpf-cta-section:before{
     left: 15%;
@@ -643,6 +669,9 @@ p.gwpf-author-name {
   .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card .gwpf-img-wrapper{
     height: 100%;
     text-align: center;
+  }
+  .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-3 .gwpf-img-wrapper, .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-4 .gwpf-img-wrapper{
+    height: auto;
   }
   .gwpf-impliment-section-cards-wrapper .gwpf-impliment-single-card.gwpf-impliment-card-1 .gwpf-img-wrapper img{
     width: 80%;
@@ -664,7 +693,8 @@ p.gwpf-author-name {
         line-height: 40px;
     }
     h2,
-    .gwpf-section-header{
+    .gwpf-section-header,
+    .gwpf-hero-section-wrapper.gwpf-no-more-limitation-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-hero-section-heading{
         font-size: 30px;
         line-height: 36px;
     }
@@ -689,6 +719,9 @@ p.gwpf-author-name {
     .gwpf-hero-section-wrapper{
         padding: 50px 0;
     }
+    .gwpf-hero-section-wrapper.gwpf-no-more-limitation-wrapper{
+        padding-top: 0;
+    }
     .gwpf-hero-section-wrapper .gwpf-hero-section-container{
         grid-template-columns: 1fr;
         gap: 20px
@@ -711,6 +744,9 @@ p.gwpf-author-name {
         font-size: 34px;
         line-height: 40px;
         margin-bottom: 18px;
+    }
+    .gwpf-hero-section-wrapper.gwpf-no-more-limitation-wrapper .gwpf-hero-section-container .gwpf-hero-text-wrapper .gwpf-hero-section-heading{
+        text-align: center;
     }
     
     .gwpf-section-text,
@@ -887,6 +923,7 @@ p.gwpf-author-name {
     .gwpf-video-wrapper .gwpf-play-button{
         padding: 5px 20px;
         border-radius: 10px;
+        padding-bottom: 3px;
     }
     .gwpf-video-wrapper .gwpf-play-button svg{
         width: 15px;
